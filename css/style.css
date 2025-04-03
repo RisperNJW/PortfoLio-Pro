@@ -129,7 +129,7 @@ img {
 .navlist {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .navlink {
@@ -733,19 +733,19 @@ img {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
-    .herogrid,
-    .aboutgrid,
-    .contactgrid {
+    .hero-grid,
+    .about-grid,
+    .contact-grid {
         grid-template-columns: 1fr;
     }
 
-    .herocontent {
+    .hero-content {
         order: 2;
         text-align: center;
         max-width: 100%;
     }
 
-    .herobuttons {
+    .hero-buttons {
         justify-content: center;
     }
 
@@ -779,7 +779,7 @@ img {
         font-size: 2rem;
     }
 
-    .nav-list {
+    .navlist {
         gap: 1rem;
     }
 
@@ -798,10 +798,10 @@ img {
 }
 
 @media (max-width: 576px) {
-    .nav-list {
-        flex-direction: column;
+    .navlist {
+        flex-direction: row;
         align-items: center;
-        gap: 0.15rem;
+        gap: 0.625rem;
     }
 
     .hero-buttons {
