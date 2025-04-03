@@ -46,7 +46,6 @@ img {
 }
 
 .container {
-    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -805,14 +804,6 @@ img {
         gap: 0.15rem;
     }
 
-    .navlink {
-        padding: 0.5rem;
-    }
-
-    .navlink::after {
-        width: 0;
-    }
-
     .hero-buttons {
         flex-direction: column;
     }
@@ -867,11 +858,6 @@ img {
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 2rem; 
-    }
-
-    .contact-info {
-        align-items: center; 
-        text-align: center; 
     }
 
     .info-card {
