@@ -117,7 +117,7 @@
             const message = encodeURIComponent(document.getElementById('message').value);
 
             const mailto = `mailto:sherryjayanshy@gmail.com?subject=${subject} (from ${name})&body=Hi Risper,%0A%0A${message}%0A%0AContact Email: ${email}`;
-            window.location.href = mailto;
+            window.open(mailto, '_blank');
         });
     </script>
 </body>
